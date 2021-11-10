@@ -1,0 +1,8 @@
+pub static APP_ID: &str = @APP_ID@;
+pub static PKGDATADIR: &str = @PKGDATADIR@;
+pub static PROFILE: &str = @PROFILE@;
+pub static VERSION: &str = @VERSION@;
+pub static GETTEXT_PACKAGE: &str = @GETTEXT_PACKAGE@;
+pub static LOCALEDIR: &str = @LOCALEDIR@;
+#[cfg(feature = "video")]
+pub static VIDEO_PATH: &str = @VIDEO_PATH@;
