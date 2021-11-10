@@ -97,7 +97,7 @@ impl Window {
         );
 
         let name = glib::os_info("NAME").unwrap_or_else(|| "GNOME".into());
-        let version = glib::os_info("VERSION").unwrap_or_else(|| "".into());
+        let version_id = glib::os_info("VERSION_ID").unwrap_or_else(|| "".into());
         let last_page = ImagePageWidget::new(
             "/org/gnome/Tour/ready-to-go.svg",
             gettext("That's it. Have a nice day!"),
