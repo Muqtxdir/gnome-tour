@@ -1,0 +1,241 @@
+[options]
+girs_dir = "gir-files"
+library = "Handy"
+version = "1"
+min_cfg_version = "1"
+target_path = "."
+work_mode = "normal"
+generate_safety_asserts = true
+deprecate_by_min_version = true
+# with this option enabled, versions for gir and gir-files saved only to one file to minimize noise
+single_version_file = true
+
+external_libraries = [ 
+    "GLib",
+    "GObject",
+    "Gdk",
+    "Gio",
+    "Gtk",
+    "Pango",
+]
+
+generate = [
+    "Handy.ApplicationWindow",
+    "Handy.CarouselIndicatorDots",
+    "Handy.CarouselIndicatorLines",
+    "Handy.CenteringPolicy",
+    "Handy.DeckTransitionType",
+    "Handy.HeaderGroupChild",
+    "Handy.HeaderGroupChildType",
+    "Handy.LeafletTransitionType",
+    "Handy.NavigationDirection",
+    "Handy.SqueezerTransitionType",
+    "Handy.SwipeGroup",
+    "Handy.Swipeable",
+    "Handy.ViewSwitcherPolicy",
+    "Handy.Window",
+    "Handy.WindowHandle",
+]
+
+manual = [
+    "GLib.String",
+    "GLib.Variant",
+    "GObject.Object",
+    "GObject.Value",
+    "Gdk.Event",
+    "Gdk.EventMask",
+    "Gdk.Rectangle",
+    "GdkPixbuf.Pixbuf",
+    "Gio.ActionGroup",
+    "Gio.ActionMap",
+    "Gio.ListModel",
+    "Gtk.Actionable",
+    "Gtk.Adjustment",
+    "Gtk.Align",
+    "Gtk.ApplicationWindow",
+    "Gtk.BaselinePosition",
+    "Gtk.Bin",
+    "Gtk.Box",
+    "Gtk.Buildable",
+    "Gtk.Button",
+    "Gtk.Container",
+    "Gtk.CornerType",
+    "Gtk.Dialog",
+    "Gtk.DrawingArea",
+    "Gtk.Entry",
+    "Gtk.EventBox",
+    "Gtk.Grid",
+    "Gtk.HeaderBar",
+    "Gtk.IconSize",
+    "Gtk.ListBoxRow",
+    "Gtk.Orientable",
+    "Gtk.Orientation",
+    "Gtk.PolicyType",
+    "Gtk.PositionType",
+    "Gtk.ReliefStyle",
+    "Gtk.ResizeMode",
+    "Gtk.ScrolledWindow",
+    "Gtk.ShadowType",
+    "Gtk.Stack",
+    "Gtk.Widget",
+    "Gtk.Window",
+    "Pango.EllipsizeMode",
+]
+
+[[object]]
+name = "Handy.*"
+status = "generate"
+    [[object.function]]
+    name = "string_utf8_truncate"
+    ignore = true
+    [[object.function]]
+    name = "string_utf8_len"
+    ignore = true
+
+[[object]]
+name = "Handy.ActionRow"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Avatar"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Carousel"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Clamp"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.ComboRow"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Deck"
+status = "generate"
+generate_builder = true
+    [[object.child_prop]]
+    name = "name"
+    type = "utf8"
+
+[[object]]
+name = "Handy.ExpanderRow"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.HeaderBar"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.HeaderGroup"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Keypad"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Leaflet"
+child_type = "Gtk.Widget"
+status = "generate"
+generate_builder = true
+    [[object.child_prop]]
+    name = "icon-name"
+    type = "utf8"
+    [[object.child_prop]]
+    name = "name"
+    type = "utf8"
+    [[object.child_prop]]
+    name = "needs-attention"
+    type = "gboolean"
+    [[object.child_prop]]
+    name = "position"
+    type = "gint"
+    [[object.child_prop]]
+    name = "title"
+    type = "utf8"
+
+[[object]]
+name = "Handy.PreferencesGroup"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.PreferencesPage"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.PreferencesRow"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.PreferencesWindow"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.SearchBar"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.Squeezer"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.SwipeTracker"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.TitleBar"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.ValueObject"
+status = "generate"
+    [[object.function]]
+    name = "dup_string"
+    ignore = true
+    [[object.function]]
+    name = "copy_value"
+    ignore = true
+    [[object.function]]
+    name = "new_take_string"
+    ignore = true
+    [[object.function]]
+    name = "new_string"
+    ignore = true
+    [[object.property]]
+    name = "value"
+    ignore = true
+
+[[object]]
+name = "Handy.ViewSwitcher"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.ViewSwitcherBar"
+status = "generate"
+generate_builder = true
+
+[[object]]
+name = "Handy.ViewSwitcherTitle"
+status = "generate"
+generate_builder = true

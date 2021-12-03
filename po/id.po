@@ -1,0 +1,200 @@
+# Indonesian translation for gnome-tour.
+# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-tour package.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2020-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-tour master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
+"POT-Creation-Date: 2021-02-19 09:23+0000\n"
+"PO-Revision-Date: 2021-02-21 20:27+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
+#: src/main.rs:19
+msgid "Tour"
+msgstr "Tur"
+
+#: data/org.gnome.Tour.desktop.in.in:4
+msgid "Greeter & Tour"
+msgstr "Penyapa & Tur"
+
+#: data/org.gnome.Tour.desktop.in.in:9
+msgid "Gnome;GTK;"
+msgstr "Gnome;GTK;"
+
+#: data/org.gnome.Tour.metainfo.xml.in.in:8
+msgid "GNOME Tour and Greeter"
+msgstr "GNOME Tur dan Penyapa"
+
+#: data/org.gnome.Tour.metainfo.xml.in.in:10
+msgid "A guided tour and greeter for GNOME."
+msgstr "Tur terpandu dan penyapa untuk GNOME."
+
+#: data/org.gnome.Tour.metainfo.xml.in.in:15
+msgid "Main Window"
+msgstr "Jendela Utama"
+
+#: data/org.gnome.Tour.metainfo.xml.in.in:38
+msgid "The GNOME Project"
+msgstr "Proyek GNOME"
+
+#: src/widgets/pages/welcome.rs:151
+msgid "Start the Tour"
+msgstr "Mulai Tur"
+
+#: src/widgets/pages/welcome.rs:161
+msgid "Learn about new and essential features in {} {}."
+msgstr "Pelajari tentang fitur baru dan penting di {} {}."
+
+#: src/widgets/paginator.rs:32
+msgid "_Start"
+msgstr "_Mulai"
+
+#: src/widgets/paginator.rs:33
+msgid "_Next"
+msgstr "Sela_njutnya"
+
+#: src/widgets/paginator.rs:34 src/widgets/paginator.rs:35
+msgid "_Close"
+msgstr "T_utup"
+
+#: src/widgets/paginator.rs:36
+msgid "_Previous"
+msgstr "_Sebelumnya"
+
+#: src/widgets/window.rs:51
+msgid "Get an Overview"
+msgstr "Dapatkan Gambaran Umum"
+
+#: src/widgets/window.rs:52
+msgid "Press Activities to see open windows and apps."
+msgstr "Tekan Aktivitas untuk melihat jendela dan aplikasi yang terbuka."
+
+#: src/widgets/window.rs:61
+msgid "Make Apps Your Own"
+msgstr "Jadikan Aplikasi Anda Sendiri"
+
+#: src/widgets/window.rs:62
+msgid "Arrange the app grid to your liking."
+msgstr "Atur kisi aplikasi sesuai keinginan Anda."
+
+#: src/widgets/window.rs:71
+msgid "Keep on Top with Workspaces"
+msgstr "Tetap di Atas dengan Ruang Kerja"
+
+#: src/widgets/window.rs:72
+msgid "Easily organise windows with the new workspaces view."
+msgstr "Atur jendela dengan mudah dengan tampilan ruang kerja baru."
+
+#: src/widgets/window.rs:81
+msgid "Up/Down for the Overview"
+msgstr "Atas/Bawah untuk Gambaran Umum"
+
+#: src/widgets/window.rs:82
+msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+msgstr "Di touchpad, gunakan usap vertikal tiga jari. Cobalah!"
+
+#: src/widgets/window.rs:91
+msgid "Left/Right for Workspaces"
+msgstr "Kiri/Kanan untuk Ruang Kerja"
+
+#: src/widgets/window.rs:92
+msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+msgstr "Di touchpad, gunakan usap horizontal tiga jari. Cobalah!"
+
+#: src/widgets/window.rs:104
+msgid "That's it! We hope that you enjoy {} {}."
+msgstr "Itu saja! Kami berharap bahwa Anda menikmati {} {}."
+
+#: src/widgets/window.rs:107
+msgid "To get more advice and tips, see the Help app."
+msgstr "Untuk mendapatkan saran dan tips lainnya, lihat aplikasi bantuan."
+
+#~ msgid "Welcome to {} {}"
+#~ msgstr "Selamat datang di {} {}"
+
+#~ msgid "_No Thanks"
+#~ msgstr "_Tidak, Terima Kasih"
+
+#~ msgid "Hi there! Take the tour to learn your way around and discover essential features."
+#~ msgstr "Hai yang di sana! Ambil tur untuk mempelajari jalan sekitar Anda dan menemukan fitur penting."
+
+#~ msgid "The activities view can also be used to switch windows and search."
+#~ msgstr "Tampilan aktivitas juga dapat digunakan untuk beralih jendela dan pencarian."
+
+#~ msgid "Just type to search"
+#~ msgstr "Cukup ketik untuk mencari"
+
+#~ msgid "In the activities view, just start typing to search for apps, settings and more."
+#~ msgstr "Dalam tampilan aktivitas, cukup mulai mengetik untuk mencari aplikasi, pengaturan, dan lainnya."
+
+#~ msgid "Click the time to see notifications"
+#~ msgstr "Klik waktu untuk melihat notifikasi"
+
+#~ msgid "The notifications popover also includes personal planning tools."
+#~ msgstr "Popover notifikasi juga termasuk perkakas perencanaan pribadi."
+
+#~ msgid "View system information and settings"
+#~ msgstr "Lihat informasi dan pengaturan sistem"
+
+#~ msgid "Get an overview of the system status and quickly change settings."
+#~ msgstr "Dapatkan ringkasan status sistem dan ubah pengaturan dengan cepat."
+
+#~ msgid "Use Software to find and install apps"
+#~ msgstr "Gunakan Perangkat Lunak untuk menemukan dan memasang aplikasi"
+
+#~ msgid "Discover great apps through search, browsing and our recommendations."
+#~ msgstr "Temukan aplikasi hebat melalui pencarian, penelusuran, dan rekomendasi kami."
+
+#~ msgid "GNOME Tour"
+#~ msgstr "GNOME Tur"
+
+#~ msgid "Activities Overview"
+#~ msgstr "Ringkasan Aktivitas"
+
+#~ msgid "Search"
+#~ msgstr "Pencarian"
+
+#~ msgid "Date & Time"
+#~ msgstr "Tanggal & Waktu"
+
+#~ msgid "System Menu"
+#~ msgstr "Menu Sistem"
+
+#~ msgid "Software"
+#~ msgstr "Perangkat Lunak"
+
+#~ msgid "Tour Completed"
+#~ msgstr "Tur selesai"
+
+#~ msgid "Take the Tour"
+#~ msgstr "Ikuti Tur"
+
+#~ msgid "You can also view open windows, search and use workspaces."
+#~ msgstr "Anda juga dapat melihat jendela yang terbuka, mencari dan menggunakan ruang kerja."
+
+#~ msgid "Search can be used to launch apps, find settings, do calculations and much more."
+#~ msgstr "Pencarian dapat digunakan untuk meluncurkan aplikasi, menemukan pengaturan, melakukan perhitungan dan banyak lagi."
+
+#~ msgid "This includes notifications, media controls, calendar events, the weather and world clocks."
+#~ msgstr "Ini termasuk notifikasi, kontrol media, kalender acara, cuaca dan jam dunia."
+
+#~ msgid "The Software app makes it easy to find and install all the apps you need."
+#~ msgstr "Aplikasi Perangkat Lunak membuatnya mudah untuk menemukan dan memasang semua aplikasi yang Anda butuhkan."
+
+#~ msgid "Learn More"
+#~ msgstr "Pelajari Lebih Jauh"
+
+#~ msgid "That's it! To learn more, see the Help"
+#~ msgstr "Itu saja! Untuk mempelajari lebih lanjut, lihat Bantuan"
+
+#~ msgid "The help app contains information, tips and tricks."
+#~ msgstr "Aplikasi bantuan berisi informasi, tips dan trik."

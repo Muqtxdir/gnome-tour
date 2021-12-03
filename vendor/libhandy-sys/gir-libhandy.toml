@@ -1,0 +1,14 @@
+[options]
+work_mode = "sys"
+library = "Handy"
+version = "1"
+min_cfg_version = "1"
+external_libraries = [
+   "GLib",
+   "GObject",
+   "Gdk",
+   "Gio",
+   "Gtk",
+   "Pango",
+   "GdkPixbuf"
+]
